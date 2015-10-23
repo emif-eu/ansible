@@ -1,0 +1,6 @@
+---
+- hosts: Datalift
+  roles:
+    - common
+  environment:
+    http_proxy: http://192.168.10.1:3128
